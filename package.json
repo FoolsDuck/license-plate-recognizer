@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-client": "cd frontend && npm install",
+    "install-server": "cd backend && npm install",
+    "dev": "concurrently \"cd frontend && npm start\" \"cd backend && npm run dev\"",
+    "start": "concurrently \"cd frontend && npm start\" \"cd backend && npm start \""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

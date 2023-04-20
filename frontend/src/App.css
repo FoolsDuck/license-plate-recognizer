@@ -1,0 +1,71 @@
+#autocomplete-form {
+  width: 40% !important;
+  margin: auto!important;
+}
+.col-md-6 {
+  margin-top: 20px!important;
+}
+.orangeBtn {
+  background-color: #F2520C!important;
+  border-color: #F2520C!important;
+  font-weight: bold!important;
+}
+.orangeBtn:hover {
+  background-color: black!important;
+  color: #F2520C!important;
+}
+#from-input {
+position: relative!important;
+z-index: 1!important;
+}
+
+#from-input-list {
+/* width: 13% !important; */
+position: absolute !important;
+background-color: #F2520C !important;
+color: black !important;
+}
+
+#from-input-list option {
+padding: 5px !important;
+border: 2px solid black !important;
+font-weight: 800 !important;
+}
+
+#from-input-list option:hover {
+padding: 5px;
+border: 2px solid #F2520C !important;
+background-color: black !important;
+color: #F2520C !important;
+font-weight: 800 !important;
+cursor: pointer;
+}
+
+.cols-2 {
+  margin: auto !important
+}
+.cols-2 > div {
+width: 50% !important;
+}
+#flightForm {
+  width: 40%;
+  margin: auto;
+}
+.darkOnHover:hover {
+  background-color: rgb(40, 40, 40) !important;
+color: #F2520C !important;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .container, .container-md, .container-sm {
+    max-width: 840px !important
+}
+}
+
+.styledImg {
+  width: 400px;
+  border: 2px solid;
+  border-radius: 10px;
+}
